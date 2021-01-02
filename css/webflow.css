@@ -1901,5 +1901,5 @@ textarea.w-select {
   margin-top: 8px;
 }
 .navbar-collapse {
-  margin-top: 70px;
+  margin-top: 70px !important;
 }
