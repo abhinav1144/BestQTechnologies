@@ -1798,7 +1798,7 @@ textarea.w-select {
 /* Abhinav Custom Styles*/
 
 .dropbtn {
-  color: black;
+  color: rgba(0,0,0,.5);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -1864,7 +1864,7 @@ textarea.w-select {
     background: #ccc;
     position: absolute;
     left: -46px;
-    top: 127px;
+    top: 56px;
   }
   .nav-link {
     text-align: center !important;
@@ -1899,4 +1899,7 @@ textarea.w-select {
 }
 .dropdown {
   margin-top: 8px;
+}
+.navbar-collapse {
+  margin-top: 70px;
 }
