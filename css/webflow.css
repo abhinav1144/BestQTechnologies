@@ -1814,8 +1814,8 @@ textarea.w-select {
   display: none;
   position: absolute;
   width: 1128px;
-  left: -560px;
-  top: 32px;
+  left: -365px;
+  top: 25px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -1857,4 +1857,46 @@ textarea.w-select {
 }
 .nav-pills .nav-link {
   font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    width: 128%;
+    background: #ccc;
+    position: absolute;
+    left: -46px;
+    top: 127px;
+  }
+  .nav-link {
+    text-align: center !important;
+  }
+  .button-nav-link {
+    align-self: center !important;
+  }
+  .dropdown {
+    text-align: center !important;
+    margin-top: 0px !important;
+  }
+  .dropdown-content {
+    position: absolute;
+    width: auto !important;
+    left: 0px !important;
+    top: 30px !important;
+    background-color: white;
+  }
+}
+.navbar {
+  margin-top: 0px !important;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+}
+.navbar-expand-lg {
+  width: 100%;
+}
+.dropdown {
+  margin-top: 8px;
 }
